@@ -1,9 +1,12 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import ShortPost from "../component/post/ShortPost";
+import './page.css';
 
 const Home = () => {
   return (
-    <Typography>Home page</Typography>
+    <div className="center-children">
+      <ShortPost title='Test' image={require('../static/images/simple.jpg')} alt='image of duck' description='a short post about ducks' />
+    </div>
   );
 }
 

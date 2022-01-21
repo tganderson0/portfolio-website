@@ -1,0 +1,10 @@
+.center-children {
+  display: flex;
+  justify-content: center;
+}
+
+/* .parent {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* To align vertically, if needed
+} */
