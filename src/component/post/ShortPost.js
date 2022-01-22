@@ -21,7 +21,7 @@ const ShortPost = (props) => {
       <CardActionArea>
         <CardMedia
           component="img"
-          height={200}
+          height={300}
           image={props.image}
           alt={props.alt}
         />
