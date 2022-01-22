@@ -13,7 +13,7 @@ const Home = () => {
         My most recent project is below! Check out my project archive for more, or go straight to my GitHub!
       </Typography>
       <ShortPost title='Water Tracker' image={require('../static/images/watertracker.jpg')} alt='image of app' 
-      description='A React Native project that I created to track daily water intake.' 
+      description='A React Native project that I created to track daily water intake. Available on the app store!' 
       link="https://github.com/tganderson0/water-tracker"
       />
     </div>
