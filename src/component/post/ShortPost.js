@@ -11,17 +11,22 @@ import { CardContent } from "@mui/material";
   image: the relative path to the images
   alt: the alt for the image
   description: a short description of the project
+  link: the link the card should take you to on click
 
 */
 const ShortPost = (props) => {
 
   return (
     <>
-      <Card sx={{ maxWidth: '50%', marginTop: '16px', marginBottom: '16px' }}>
+      <Card sx={{ maxWidth: '50%', marginTop: '16px', marginBottom: '16px' }}
+      onClick={() => {
+        window.open(props.link)
+      }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height={200}
+          // width={300}
+          sx={{height: 300, width: 'auto', marginLeft: 'auto', marginRight: 'auto'}}
           image={props.image}
           alt={props.alt}
         />
