@@ -11,8 +11,6 @@ import GitHub from "@mui/icons-material/GitHub";
   title: title for the post
   description: a short description of the project
   link: the link the card should take you to on click
-  start: the function to start audio
-  stop: the function to stop audio
 */
 const AudioPost = (props) => {
 
