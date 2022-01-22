@@ -4,9 +4,11 @@ import {
   Toolbar,
   CssBaseline,
   Typography,
+  Icon,
 } from '@mui/material';
 import { Link } from "react-router-dom";
 import './header.css';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 const Navbar = () => {
@@ -15,7 +17,7 @@ const Navbar = () => {
     <AppBar position="static">
       <CssBaseline />
       <Toolbar>
-        <Typography variant="h4" className='logo'>
+        <Typography variant="h5" className='logo'>
           Taylor Anderson
         </Typography>
         <div className="navlinks">
@@ -28,6 +30,7 @@ const Navbar = () => {
           <Link to="/projects" className="link">
             Projects
           </Link>
+          <a href="https://github.com/tganderson0" className="link"><GitHubIcon /></a>
         </div>
       </Toolbar>
     </AppBar>
