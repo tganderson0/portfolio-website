@@ -14,7 +14,7 @@ import { Mail } from "@mui/icons-material";
 const Navbar = () => {
 
   return (
-    <AppBar position="static">
+    <AppBar color='transparent' position="static" sx={{ backgroundColor: 'rgba( 255, 255, 255, 0.1 )' }} className='navbar'>
       <CssBaseline />
       <Toolbar>
         <Typography variant="h5" className='logo' sx={{ cursor: 'default' }}>

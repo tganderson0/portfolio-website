@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { CardContent } from "@mui/material";
 
+import './card.css'
+
 /* Props format for a short post
 
   title: title for the post
@@ -21,7 +23,9 @@ const ShortPost = (props) => {
       <Card sx={{ maxWidth: '50%', marginTop: '16px', marginBottom: '16px' }}
       onClick={() => {
         window.open(props.link)
-      }}>
+      }}
+      className='card'
+      >
       <CardActionArea>
         <CardMedia
           component="img"
