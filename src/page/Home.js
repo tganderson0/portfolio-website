@@ -12,9 +12,9 @@ const Home = () => {
       <Typography marginBottom={4}>
         My most recent project is below! Check out my project archive for more, or go straight to my GitHub!
       </Typography>
-      <ShortPost title='Water Tracker' image={require('../static/images/watertracker.jpg')} alt='image of app' 
-      description='A React Native project that I created to track daily water intake. Available on the app store!' 
-      link="https://github.com/tganderson0/water-tracker"
+      <ShortPost title='Tower Defense/Crow Engine' image={require('../static/images/towerdefense.jpg')} alt='image of game' 
+      description='A tower defense game built with Monogame, utilizing a custom game engine that me and my brother created that we call "Crow Engine"' 
+      link="https://github.com/Serpents-of-the-East/TowerDefense"
       />
     </div>
   );
