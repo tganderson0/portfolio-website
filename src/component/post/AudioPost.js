@@ -6,6 +6,8 @@ import { CardContent } from "@mui/material";
 import { PlayArrow, Pause } from "@mui/icons-material";
 import GitHub from "@mui/icons-material/GitHub";
 
+import './card.css'
+
 /* Props format for a short post
 
   title: title for the post
@@ -16,7 +18,7 @@ const AudioPost = (props) => {
 
   return (
     <>
-      <Card sx={{ maxWidth: '50%', marginTop: '16px', marginBottom: '16px' }}>
+      <Card sx={{ maxWidth: '50%', marginTop: '16px', marginBottom: '16px' }} className='card'>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {props.title}
